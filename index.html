@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Clicker Game</h1>
+        <div id="boss">
+            <img src="boss.png" alt="Boss" id="bossImage">
+            <p id="bossHealth">Boss Health: <span id="health">100</span></p>
+            <button id="clickBoss">Click to Attack</button>
+        </div>
+        <div id="attacks">
+            <button id="attack1" disabled>Attack 1 (5s Cooldown)</button>
+            <button id="attack2" disabled>Attack 2 (5s Cooldown)</button>
+        </div>
+        <div id="shop">
+            <button id="autoClick500" disabled>Buy Auto Click (500 Münzen)</button>
+            <button id="autoClick1000" disabled>Buy Auto Click (1000 Münzen)</button>
+        </div>
+        <p id="coins">Münzen: <span id="coinCount">0</span></p>
+        <p id="version">Noch nicht die offizielle Version</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
